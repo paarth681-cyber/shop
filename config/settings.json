@@ -1,0 +1,11 @@
+﻿{
+  "enabled_modules": [
+    "pos_system",
+    "billing",
+    "reports",
+    "restocking"
+  ],
+  "currency": "INR",
+  "tax_enabled": true,
+  "tax_rate": 0.18
+}

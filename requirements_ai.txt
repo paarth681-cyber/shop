@@ -1,0 +1,23 @@
+# AI Requirements for Shop Manager Pro
+# Core AI dependencies
+
+# Data processing and ML
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Optional: Advanced ML and visualization
+matplotlib>=3.5.0  # For forecasting charts
+scikit-learn>=1.0.0  # For advanced ML features (optional)
+
+# HTTP requests for GPT API
+requests>=2.25.0
+
+# PyQt6 for AI widgets (if not already installed)
+PyQt6>=6.4.0
+
+# Optional: Additional NLP libraries
+# nltk>=3.7  # For advanced text processing
+# textblob>=0.17.1  # For sentiment analysis
+
+# Note: OpenAI API key required for GPT features
+# Get your key from: https://platform.openai.com/api-keys
