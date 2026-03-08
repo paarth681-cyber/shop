@@ -1,9 +1,26 @@
+# Python cache
 __pycache__/
 *.pyc
-*.db
-*.log
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build outputs
 dist/
 build/
-backups/
-env/
-venv/
+other/build/
+
+# Pytest
+.pytest_cache/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
