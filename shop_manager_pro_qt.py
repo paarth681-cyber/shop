@@ -10,15 +10,15 @@ from datetime import datetime, timedelta
 from PyQt6.QtWidgets import *
 from PyQt6.QtCore import *
 from PyQt6.QtGui import *
-from design_system import DesignSystem, StyleSheets, IconSystem, SHORTCUTS
-from logger_config import (
+from ui.design_system import DesignSystem, StyleSheets, IconSystem, SHORTCUTS
+from logs.logger_config import (
     init_logging, get_logger, log_info, log_error, 
     log_user_action, log_db_operation
 )
-from telemetry_dialog import show_telemetry_dialog
-from tax_config_dialog import TaxConfigDialog
-from discount_management_dialog import DiscountManagementDialog
-from demo_mode import should_show_demo, show_demo_dialog
+from modules.telemetry_dialog import show_telemetry_dialog
+from modules.tax_config_dialog import TaxConfigDialog
+from modules.discount_management_dialog import DiscountManagementDialog
+from modules.demo_mode import should_show_demo, show_demo_dialog
 
 # AI components
 try:

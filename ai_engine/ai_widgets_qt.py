@@ -35,7 +35,7 @@ except ImportError:
     FigureCanvas = None
 
 from ai_engine import get_ai_engine
-from logger_config import log_info, log_error, log_user_action
+from logs.logger_config import log_info, log_error, log_user_action
 
 
 class AISearchWidget(QWidget):

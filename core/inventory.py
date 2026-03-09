@@ -5,7 +5,7 @@ from __future__ import annotations
 import sqlite3
 from typing import Optional
 
-from core.database import DatabaseManager
+from database.database import DatabaseManager
 
 
 class InventoryService:

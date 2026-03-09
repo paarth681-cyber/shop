@@ -6,7 +6,7 @@ from dataclasses import dataclass
 
 from config.config_loader import AppSettings, load_enabled_modules, load_settings
 from core.customers import CustomerService
-from core.database import DatabaseManager
+from database.database import DatabaseManager
 from core.inventory import InventoryService
 from core.sales import SalesService
 from modules.pos_system import POSSystem

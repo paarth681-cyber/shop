@@ -8,7 +8,7 @@ from decimal import Decimal, ROUND_HALF_UP
 from typing import Optional
 
 from core.customers import CustomerService
-from core.database import DatabaseManager
+from database.database import DatabaseManager
 
 TWOPLACES = Decimal("0.01")
 VALID_PAYMENT_METHODS = {"cash", "card", "upi", "wallet", "bank_transfer", "other"}

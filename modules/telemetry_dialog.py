@@ -6,7 +6,7 @@ Optional anonymized telemetry collection with user consent
 from PyQt6.QtWidgets import (QDialog, QVBoxLayout, QHBoxLayout, QLabel, 
                            QPushButton, QCheckBox, QTextEdit, QGroupBox)
 from PyQt6.QtCore import Qt
-from design_system import DesignSystem, StyleSheets
+from ui.design_system import DesignSystem, StyleSheets
 
 class TelemetryDialog(QDialog):
     """Dialog for telemetry settings and user consent"""

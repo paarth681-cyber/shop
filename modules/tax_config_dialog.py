@@ -10,7 +10,7 @@ from PyQt6.QtWidgets import (QDialog, QVBoxLayout, QHBoxLayout, QTableWidget,
 from PyQt6.QtCore import Qt, pyqtSignal
 from PyQt6.QtGui import QFont, QIcon
 import sqlite3
-from logger_config import log_info, log_error, log_user_action, log_db_operation
+from logs.logger_config import log_info, log_error, log_user_action, log_db_operation
 
 
 class TaxConfigDialog(QDialog):
